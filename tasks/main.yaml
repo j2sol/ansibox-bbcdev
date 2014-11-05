@@ -2,3 +2,7 @@
 - name: clone repos
   git: repo={{ item.value.repo }} dest=~/src/{{ item.key }} update=no
   with_dict: git_repos
+
+- name: developer packages (brew)
+  homebrew: name={{ item }} state=present
+  with_items: brew_pkgs
