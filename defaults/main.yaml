@@ -1,0 +1,4 @@
+---
+git-repos:
+  git@github.com:blueboxgroup/ursula.git:
+    dest: ~/src/ursula

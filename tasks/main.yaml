@@ -1,0 +1,4 @@
+---
+- name: clone repos
+  git: repo={{ item.key }} dest={{ item.dest }} update=no
+  with_dict: git-repos
