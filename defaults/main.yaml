@@ -1,4 +1,4 @@
 ---
-git-repos:
-  git@github.com:blueboxgroup/ursula.git:
-    dest: ~/src/ursula
+git_repos:
+  ursula:
+    repo: git@github.com:blueboxgroup/ursula.git

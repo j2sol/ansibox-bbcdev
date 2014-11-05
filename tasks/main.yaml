@@ -1,4 +1,4 @@
 ---
 - name: clone repos
-  git: repo={{ item.key }} dest={{ item.dest }} update=no
-  with_dict: git-repos
+  git: repo={{ item.repo }} dest=~/src/{{ item.key }} update=no
+  with_dict: git_repos
