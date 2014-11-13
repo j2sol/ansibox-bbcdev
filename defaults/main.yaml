@@ -5,3 +5,6 @@ git_repos:
 
 brew_pkgs:
   - hub
+
+pip_pkgs:
+  - vex

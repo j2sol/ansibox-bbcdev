@@ -6,3 +6,7 @@
 - name: developer packages (brew)
   homebrew: name={{ item }} state=present
   with_items: brew_pkgs
+
+- name: developer packages (pip)
+  pip: name={{ item }} state=present
+  with_items: pip_pkgs
