@@ -8,3 +8,4 @@ brew_pkgs:
 
 pip_pkgs:
   - vex
+  - ipython
