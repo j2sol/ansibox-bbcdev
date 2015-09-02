@@ -7,6 +7,9 @@ brew_pkgs:
   - hub
   - git-review
 
+brew_casks:
+  - dockertoolbox
+
 pip_pkgs:
   - vex
   - ipython

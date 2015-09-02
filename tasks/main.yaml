@@ -7,6 +7,10 @@
   homebrew: name={{ item }} state=present
   with_items: brew_pkgs
 
+- name: developer packages (brew casks)
+  homebrew_cask: name={{ item }} state=present
+  with_items: brew_casks
+
 - name: developer packages (pip)
   pip: name={{ item }} state=present executable=/usr/local/bin/pip
   with_items: pip_pkgs
